@@ -28,15 +28,7 @@ body {
     color: var(--black);
 }
 
-/* .header {
-    width: 1600px;
-} */
 
-/* .header-portfolio {border: 2px solid red;
-    width: 100%;
-    border-bottom: 3px solid #1b0e0e;
-} */
-.nav{}
 
 
 .logo {
@@ -98,7 +90,6 @@ body {
     letter-spacing: 0.02em;
 }
 
-/* made during practice*/
 .link-agencja::after {
     content: "";
     position: absolute;
@@ -164,7 +155,7 @@ body {
     font-size: 14px;
     font-weight: 500;
     text-decoration-line: none;
-    /* justify-content:; */
+   
 }
 
 .link-mail-header:hover,
@@ -325,17 +316,12 @@ body {
 ul {
     list-style-type: none;
     padding-inline-start: 0;
-    /* margin-block-start: 0em; */
-    /* margin-block-end: 0em; */
-    /* margin-inline-start: 0px;
-    margin-inline-end: 0px; */
-
 
 }
 
 
 .tittle {
-    /* background-color: var(--black); */
+  
     background-image: linear-gradient(90deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background-image.jpg);
     fill: rgba(47, 48, 58, 0.4);
     max-width: 1600px;
@@ -405,7 +391,7 @@ width: 100%;
 }
 
 .h2-title {
-    /* padding-top: 94px; */
+   
     padding-bottom: 50px;
     font-weight: 700;
     line-height: 1.16;
@@ -431,7 +417,7 @@ width: 100%;
 
 .portfolio-images {
     background-color: var(--white);
-    /* margin: 0 0; */
+   
 
 
 }
@@ -440,7 +426,7 @@ width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* justify-content: space-between; */
+    
     padding-left: 0px;
     margin: 0px;
     padding-bottom: 94px;
@@ -449,10 +435,7 @@ width: 100%;
 
 }
 
-/*
-.project-description {position: relative;
 
-    /* flex-basis: calc((100%-60px) / 3); */
 
 
 .project-description:hover,
@@ -477,7 +460,7 @@ width: 100%;
     letter-spacing: 0.06em;
     padding-left: 24px;
     padding-top: 20px;
-    /* padding-bottom: 4px; */
+   
     color: var(--black);
 
 }
@@ -502,8 +485,7 @@ width: 100%;
 .photos-list {
     display: flex;
     justify-content: space-between;
-    /* text-align: center; */
-    /* line-height: 75px; */
+ 
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
@@ -523,7 +505,7 @@ width: 100%;
 .contact,
 .links {
     display: inline-flex;
-    /* justify-content: center; */
+    
     gap: 46px;
 
 
@@ -538,7 +520,7 @@ width: 100%;
     justify-content: space-between;
     padding: 0 15px;
     
-    /* border-bottom: 1px solid red; */
+   
 
 
 }
@@ -612,7 +594,7 @@ width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-color: var(--main-bacground-color);
-    /* fill: var(--icons-color);} */
+ 
     fill: var(--blue);
 
 }
@@ -639,17 +621,12 @@ width: 100%;
 
 }
 
-/* .footer-menu>.container {
-    /* margin-inline-start: 215px;
-    margin-inline-end: 90px; */
-
 
 .social-footer {
-    /* border: 1px solid red; */
+    
     margin-left: 80px;
     width: 206px;
-    /* display: block; */
-    /* width: 206px; */
+   
 
 }
 
@@ -672,9 +649,7 @@ width: 100%;
     align-items: center;
     padding: 0;
     margin-top: 0;
-    /* flex-direction: row; */
-    /* height: 440px;
-    gap: 10px; */
+    
 }
 
 .socialfooter-item {
@@ -756,7 +731,6 @@ width: 100%;
     
 }
 
-/* tu dodac ikone send.svg  smolocik */
 
 .socialfooter-svg-icon {
     display: inline-flex;
@@ -813,7 +787,7 @@ width: 100%;
     gap: 30px;
 }
 
-/* px from figma project*/
+
 
 .client-box {
     width: 170px;
@@ -899,7 +873,7 @@ width: 100%;
     min-height: 581px;
     background-color: white;
     margin: auto;
-    /* padding: 50px 20px 20px; */
+    
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -992,7 +966,7 @@ width: 100%;
     overflow: hidden;
     width: 100%;
     height: 0;
-    /* transform:translatex(-100%); */
+    
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1020,13 +994,6 @@ width: 100%;
 /* end of code modal window is */
 
 
-/* hw06*/
-
-
-/* background red for controll visibility*/
-
-/* 
-.form{background-color: red;} */
 
 .form {
     width: 528px;
@@ -1115,7 +1082,7 @@ textarea {
 
 }
 
-/*border color var(--blue)*/
+
 
 textarea:hover,
 textarea:focus {
@@ -1138,7 +1105,7 @@ textarea:focus {
     margin-bottom: 30px;
 }
 
-/* .iconcheck{visibility: hidden;} */
+
 
 .icon-checkmark {
     display: inline-block;
@@ -1147,7 +1114,7 @@ textarea:focus {
     border: 2px solid #212121;
     border-radius: 2px;
     margin-right: 7px;
-    /* fill: white; */
+
 
 }
 
@@ -1161,14 +1128,12 @@ textarea:focus {
     margin: -1px;
     padding: 0;
 
-    /* overflow: hidden; */
+
     border: 0;
     clip: rect(0, 0, 0, 0);
 }
 
 
-/*:checked css not working ??*/
-/* code from  george hint on the Slack*/
 
 .form-checkbox:checked+.icon-checkmark {
 
@@ -1176,7 +1141,7 @@ textarea:focus {
     background-repeat: no-repeat;
     background-color: var(--blue);
     border-color: var(--blue);
-    /* color: white; */
+  
     fill: white;
     cursor: pointer;
 
