@@ -31,6 +31,10 @@ body {
 
 @media screen and (min-width:800px) and (max-width:1600px) {body{background-color: #757575;}}*/
 
+.header{width: 1600px;}
+
+.header-portfolio{width: 100%;border-bottom: 1px solid #ececec;
+}
 
 .logo {
     font-family: 'Raleway';
@@ -70,11 +74,11 @@ body {
 }
 
 .link {
-    /* text-decoration: none;
-    color: var(--black); */
+    text-decoration: none;
+    color: var(--black);
 }
 
-.link {
+.link-agencja {
     position: relative;
     color: var(--black);
     text-decoration-line: none;
@@ -84,26 +88,35 @@ body {
     letter-spacing: 0.02em;
 }
 
-.blueaccent:after{content: "";
+.link-portfolio{color: var(--black);
+    text-decoration-line: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14em;
+    letter-spacing: 0.02em;}
+
+/* .blueaccent::after{
+    content:" " ;
     position: absolute;
     bottom: -18px;
     left: 0;
     width: 100%;
     height: 4px;
     background-color: var(--blue);
+   
 
-}
+} */
 
-.link {
+/* .link {
     color: var(--black);
     text-decoration-line: none;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14em;
     letter-spacing: 0.02em;
-}
+} */
 
-/* .link-agencja::after {
+.link-agencja::after {
     content: "";
     position: absolute;
     bottom: -18px;
@@ -112,7 +125,7 @@ body {
     height: 4px;
     background-color: var(--blue);
 
-} */
+}
 
 .link-kontakt {
     color: var(--black);
@@ -188,12 +201,12 @@ body {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+/* 
 .header-portfolio {
 
     border-bottom: 1px solid #ececec;
 
-}
+} */
 
 
 .loremipsum-header {
@@ -383,10 +396,6 @@ width: 100%;
 
 }
 
-
-
-
-
 .footer-flex {
     display: flex;
     margin: 0;
@@ -534,8 +543,7 @@ width: 100%;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    /* padding: 0 15px; */
-    border-bottom: 1px solid #ececec;
+    padding: 0 15px;
     
    
 
