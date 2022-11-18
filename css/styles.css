@@ -209,15 +209,8 @@ body {
 } */
 
 
-.loremipsum-header {
-    color: var(--black);
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.55;
 
-}
-
-.loremipsum-header {
+.technologies__header {
     color: var(--black);
     font-size: 14px;
     font-weight: 700;
@@ -225,10 +218,9 @@ body {
     letter-spacing: 0.03em;
 }
 
-.loremipsum-text {
+.technologies__text {
     width: 270px;
     height: 75px;
-
     color: var(--grey);
     font-size: 14px;
     letter-spacing: 0.03em;
@@ -346,7 +338,7 @@ ul {
 }
 
 
-.tittle {
+.title {
   
     background-image: linear-gradient(90deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background-image.jpg);
     fill: rgba(47, 48, 58, 0.4);
@@ -363,7 +355,7 @@ ul {
 
 
 
-.main-tittle {
+.main-title {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -405,14 +397,14 @@ width: 100%;
 
 
 
-.our-team {
+.ourTeam {
 
     padding: 94px 0;
     background-color: #f5f4fa;
 
 }
 
-.what-we-do {
+.whatWeDo {
     padding: 94px 0;
 }
 
@@ -429,7 +421,7 @@ width: 100%;
 
 }
 
-.our-team-people {
+.ourTeam__people {
     background-color: var(--white);
     width: 100%;
     margin: 0 0;
@@ -518,7 +510,7 @@ width: 100%;
     gap: 30px;
 }
 
-.our-team-list {
+.ourTeam__list {
 
     display: flex;
     gap: 30px;
@@ -550,7 +542,7 @@ width: 100%;
 
 }
 
-.loremipsum-list {
+.technologies__list {
 
     display: flex;
     align-items: center;
@@ -568,13 +560,15 @@ width: 100%;
 
 
 
-.icons-boxes {
+.technologies__icons {
     width: 270px;
     height: 120px;
     background: var(--buttongrey);
     border-radius: 4px;
     margin-bottom: 30px;
 }
+
+
 
 .socialmedia-box {
     display: flex;
@@ -585,26 +579,7 @@ width: 100%;
     margin: 0px 32px 18px;
 }
 
-.icon-antenna {
-    margin: 25px 100px;
-
-}
-
-.icon-clock {
-    margin: 25px 100px;
-
-}
-
-.icon-diagram {
-    margin: 25px 100px;
-
-}
-
-.icon-astronaut {
-    margin: 25px 100px;
-
-}
-
+.technologies__icons--icon{margin: 25px 100px;}
 
 
 .socialmedia-icon {
@@ -798,12 +773,12 @@ width: 100%;
     cursor: pointer;
 }
 
-.our-clients {
+.customers {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.our-clients-list {
+.customers__list {
     display: flex;
     align-items: center;
 
@@ -814,7 +789,7 @@ width: 100%;
 
 
 
-.client-box {
+.customers__box {
     width: 170px;
     height: 92px;
     border: 1px solid var(--icons-color);
@@ -829,8 +804,8 @@ width: 100%;
 }
 
 
-.client-box:hover,
-.client-box:focus {
+.customers__box:hover,
+.customers__box:focus {
     --color2: #2196f3;
     border-color: var(--main-link-color);
     border-radius: 4px;
