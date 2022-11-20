@@ -17,31 +17,31 @@
 
 <body>
     <!-- header with logo, navigaion & contacts-->
-    <header class="header container">
+    <header class="header">
 
-        <div class="wrapper">
+        <div class="container header__wrapper">
             <!--logo WebStudio with blueaccent-->
             <a href="./index.html" class="logo"><span class="blueaccent">Web</span>Studio</a>
 
 
 
             <!--navigation links-->
-            <nav class="nav">
-                <ul class="links">
-                    <li><a href="./index.html" class="link-agencja">Agencja</a></li>
-                    <li><a href="./portfolio.html" class="link-portfolio">Portfolio</a></li>
-                    <li><a href="#" class="link-kontakt">Kontakt</a></li>
+            <nav class="header__nav">
+                <ul class="header__links">
+                    <li><a href="./index.html" class="header__link underlineLink">Agencja</a></li>
+                    <li><a href="./portfolio.html" class="header__link">Portfolio</a></li>
+                    <li><a href="#" class="header__link">Kontakt</a></li>
                 </ul>
             </nav>
             <!--contact phone and email-->
             <ul class="contact">
                 <li>
-                    <a href="mailto:info@devstudio.com" class="link-mail-header"><svg class="envelope" width="16"
+                    <a href="mailto:info@devstudio.com" class="contact__mail"><svg class="envelope" width="16"
                             height="12">
                             <use href="./images/icons.svg#icon-envelope"></use>
                         </svg>info@devstudio.com</a>
                 </li>
-                <li><a href="tel:+48111111111" class="link-phone-header"><svg class="smartphone" width="10" height="16">
+                <li><a href="tel:+48111111111" class="contact__phone"><svg class="smartphone" width="10" height="16">
                             <use href="./images/icons.svg#icon-smartphone"></use>
                         </svg>+48 111 111 111</a></li>
             </ul>
@@ -50,17 +50,17 @@
     <!--end header-->
 
     <!--start main-->
-    <main class="main">
+    <main>
 
         <!--first section title and button-->
         <section class="title">
 
-            <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+            <h1 class="title__main">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
 
             <!--modal button-->
 
-            <div class="modal-button">
-                <p class="main-link" data-modal-open><button class="main-button">Zamów
+            <div class="modalWindow">
+                <p class="main-link modalWindow__link" data-modal-open><button class="modalWindow__btn">Zamów
                         usługę</button></p>
             </div>
         </section>
@@ -140,10 +140,10 @@
                 <h2 class="h2-title">Czym się zajmujemy</h2>
 
                 <!--photos programmer working his desk office and description -->
-                <ul class="photos-list">
-                    <li class="work-item">
+                <ul class="whatWeDo__list">
+                    <li class="whatWeDo__item">
                         <a href="#">
-                            <p class="range-work">Aplikacje komputerowe</p>
+                            <p class="whatWeDo__range">Aplikacje komputerowe</p>
                             <img class="screen"
                                 src="images/close-up-image-programer-working-his-desk-office_1098-18707.jpg" width="370"
                                 height="294" alt="programer working his desk office" />
@@ -152,8 +152,8 @@
                     </li>
                     <!--photos creators is working interface mobile phones and description -->
 
-                    <li class="work-item"><a href="#">
-                            <p class="range-work">Aplikacje mobilne</p>
+                    <li class="whatWeDo__item"><a href="#">
+                            <p class="whatWeDo__range">Aplikacje mobilne</p>
                             <img class="screen"
                                 src="images/web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg"
                                 width="370" height="294" alt="creators is working interface mobile phones" />
@@ -161,8 +161,8 @@
                     </li>
 
                     <!--photos web design with working colour selection graphic tablet and description-->
-                    <li class="work-item"><a href="#">
-                            <p class="range-work">Rozwiązania graficzne</p>
+                    <li class="whatWeDo__item"><a href="#">
+                            <p class="whatWeDo__range">Rozwiązania graficzne</p>
                             <img class="screen"
                                 src="images/creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg"
                                 width="370" height="294"
@@ -188,8 +188,8 @@
                             <img src="images/4853.jpg" width="270" height="260"
                                 alt="young man with dark beard and glasses" />
                             <figcaption>
-                                <p class="worker-name"><strong>John Doe</strong> </p>
-                                <p class="worker-occupation">Product Designer</p>
+                                <p class="ourTeam__worker-name">John Doe</p>
+                                <p class="ourTeam__worker-occupation">Product Designer</p>
 
                                 <!--social media instagram tt fb linkedin-->
                                 <ul class="socialmedia-box">
@@ -234,8 +234,8 @@
                         <figure class="ourTeam__people">
                             <img src="images/5844.jpg" width="270" height="260" alt="smiling blonde with glasses" />
                             <figcaption>
-                                <p class="worker-name"><strong>John Doe</strong></p>
-                                <p class="worker-occupation">
+                            <p class="ourTeam__worker-name">John Doe</p>
+                                <p class="ourTeam__worker-occupation">
                                     Frontend Developer</p>
                                 <!--social media instagram tt fb linkedin-->
                                 <ul class="socialmedia-box">
@@ -279,8 +279,8 @@
                         <figure class="ourTeam__people">
                             <img src="images/16166.jpg" width="270" height="260" alt="young man in a bright shirt" />
                             <figcaption>
-                                <p class="worker-name"><strong>John Doe</strong></p>
-                                <p class="worker-occupation"> Marketing</p>
+                            <p class="ourTeam__worker-name">John Doe</p>
+                                <p class="ourTeam__worker-occupation"> Marketing</p>
 
                                 <!--social media instagram tt fb linkedin-->
                                 <ul class="socialmedia-box">
@@ -324,8 +324,8 @@
                         <figure class="ourTeam__people">
                             <img src="images/2968.jpg" width="270" height="260" alt="young man i dark t-shirt" />
                             <figcaption>
-                                <p class="worker-name"><strong>John Doe</strong></p>
-                                <p class="worker-occupation">UI Designer</p>
+                            <p class="ourTeam__worker-name">John Doe</p>
+                                <p class="ourTeam__worker-occupation">UI Designer</p>
 
 
                                 <!--social media instagram tt fb linkedin-->
@@ -370,6 +370,7 @@
         <!-- end of 4th section- - our team and cards and social media -->
 
         <!--section customers-->
+        
         <section class="customers">
             <div class="container">
                 <h2 class="h2-title">Nasi klienci</h2>
@@ -448,20 +449,20 @@
 
     <!--footer logo, address and contacts -->
 
-    <footer class="footer-menu">
+    <footer class="footer">
         <div class="container">
-            <div class="footer-flex">
-                <div class="footer-webstudio-contact">
+            <div class="footer__flex">
+                <div>
 
                     <a href="./index.html" class="logo">
                         <span class="blueaccent">Web</span>
-                        <span class="footer-white-logo">Studio</span></a>
-                    <address class="address">m.Warszawa, Aleje Jerozolimskie 21
+                        <span class="footer__whiteLogo">Studio</span></a>
+                    <address class="footer__address">m.Warszawa, Aleje Jerozolimskie 21
 
-                        <ul class="footer-contact-list">
-                            <li class="footer-contact-item"><a href="mailto:info@example.com"
-                                    class="link-mail">info@example.com</a></li>
-                            <li><a href="tel:+48111111111" class="link-phone">+48 111 111 111</a></li>
+                        <ul class="footer__contact">
+                            <li class="footer__item"><a href="mailto:info@example.com"
+                                    class="footer__mail">info@example.com</a></li>
+                            <li><a href="tel:+48111111111" class="footer__phone">+48 111 111 111</a></li>
 
                         </ul>
                     </address>
@@ -469,12 +470,12 @@
 
                 <!-- social footer join to us with icons-->
 
-                <div class="social-footer">
-                    <p class="join-to-us">Dołącz do nas</p>
-                    <ul class="socialfooter-box">
-                        <li class="socialfooter-item">
-                            <span class="socialfooter-icon"><a href="https://www.instagram.com">
-                                    <svg class="socialfooter-svg-icon">
+                <div class="socialFooter">
+                    <p class="socialFooter__joinToUs">Dołącz do nas</p>
+                    <ul class="socialFooter__box">
+                        <li class="socialFooter__item">
+                            <span class="socialFooter__icon"><a href="https://www.instagram.com">
+                                    <svg class="socialFooter__svg">
                                         <use href="./images/icons.svg#icon-instagram" width="20" height="20" x="12"
                                             y="12">
                                         </use>
@@ -485,25 +486,25 @@
 
 
 
-                        <li class="socialfooter-item"><span class="socialfooter-icon"><a
+                        <li class="socialFooter__item"><span class="socialFooter__icon"><a
                                     href="https://www.instagram.com">
-                                    <svg class="socialfooter-svg-icon">
+                                    <svg class="socialFooter__svg">
                                         <use href="./images/icons.svg#icon-twitter" width="20" height="20" x="12"
                                             y="12">
                                         </use>
                                     </svg>
                                 </a></span></li>
-                        <li class="socialfooter-item"><span class="socialfooter-icon"><a
+                        <li class="socialFooter__item"><span class="socialfooter-icon socialFooter__icon"><a
                                     href="https://www.instagram.com">
-                                    <svg class="socialfooter-svg-icon">
+                                    <svg class="socialFooter__svg">
                                         <use href="./images/icons.svg#icon-facebook" width="20" height="20" x="12"
                                             y="12">
                                         </use>
                                     </svg>
                                 </a></span></li>
-                        <li class="socialfooter-item"><span class="socialfooter-icon"><a
+                        <li class="socialFooter__item"><span class="socialFooter__icon"><a
                                     href="https://www.instagram.com">
-                                    <svg class="socialfooter-svg-icon">
+                                    <svg class="socialFooter__svg">
                                         <use href="./images/icons.svg#icon-linkedin" width="20" height="20" x="12"
                                             y="12">
                                         </use>
