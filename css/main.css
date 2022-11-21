@@ -403,4 +403,51 @@ textarea:focus {
 .policyCheck__btn:hover,
 .policyCheck__btn:focus {
   background-color: var(--form-color);
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--black);
+}
+
+.footer__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__contact {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer__whiteLogo {
+  font-family: "Raleway";
+  color: var(--white);
+  font-size: 26px;
+}
+
+.footer__mail,
+.footer__phone {
+  text-decoration: none;
+  color: var(--white);
+  opacity: 60%;
+}
+
+.footer__mail:hover,
+.footer__mail:focus,
+.footer__phone:hover,
+.footer__phone:focus {
+  color: var(--blue);
+  stroke: var(--blue);
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }/*# sourceMappingURL=main.css.map */
