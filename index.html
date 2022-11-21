@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/main.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -60,7 +61,7 @@
             <!--modal button-->
 
             <div class="modalWindow">
-                <p class="main-link modalWindow__link" data-modal-open><button class="modalWindow__btn">Zamów
+                <p class="modalWindow__link" data-modal-open><button class="modalWindow__btn">Zamów
                         usługę</button></p>
             </div>
         </section>
@@ -547,7 +548,7 @@
 
     <!-- modal window --->
 
-    <div class="backdrop is-hidden" data-modal>
+    <div class="modalWindow__backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="modal-btn" data-modal-close>
                 <svg class="modal-close-icon" width="11" height="11">
@@ -562,44 +563,37 @@
 
 
             <form class="form">
-                <span class="form-title">Zostaw swoje dane w formularzu poniżej</span>
+                <span class="form__title">Zostaw swoje dane w formularzu poniżej</span>
 
-                <div class="form-field top-title">
-                    <label class="form-label" for="name">Imię</label>
-                    <input class="form-input" type="text" name="name" id="name" placeholder="">
+                <div class="form__field form__top-title">
+                    <label class="form__label" for="name">Imię</label>
+                    <input class="form__input" type="text" name="name" id="name" placeholder="">
                     <svg class="input-icon" width="12" height="12">
                         <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
                     </svg>
                 </div>
-                <div class="form-field">
-                    <label class="form-label" for="tel">Telefon</label>
-                    <input class="form-input" type="tel" name="tel" id="tel">
+                <div class="form__field">
+                    <label class="form__label" for="tel">Telefon</label>
+                    <input class="form__input" type="tel" name="tel" id="tel">
                     <svg class="input-icon" width="12" height="12">
                         <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
                     </svg>
                 </div>
-                <!--placeholder="000-000-000" pattern="[0-9] {3}-[0-9]{3}-[0-9]{3}" name="tel" id="tel"-->
-
-
-
-                <div class="form-field">
-                    <label class="form-label" for="email">Email</label>
-                    <input class="form-input" type="email" name="email" id="email" placeholder="enter your e-mail">
+    
+                <div class="form__field">
+                    <label class="form__label" for="email">Email</label>
+                    <input class="form__input" type="email" name="email" id="email" placeholder="enter your e-mail">
                     <svg class="input-icon" width="12" height="12">
                         <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
                     </svg>
                 </div>
 
-                <div class="form-field">
-                    <label class="comment-label" for="comment">Komentarz</label>
+                <div class="form__field">
+                    <label class="form__comment-label" for="comment">Komentarz</label>
                     <textarea class="comment" name="comment" id="comment" rows="9"
                         placeholder="Wprowadź tekst"></textarea>
                 </div>
-                <div class="form-field-check">
-
-                    <!--placeholder="your@mail" id="mail" -->
-                    <!--code input span svg use ...from George hint on the Slack-->
-
+                <div class="form-field-check fieldCheck">
 
                     <label class="policy-label" for="policy">
                         <input class="form-checkbox" type="checkbox" name="policy" id="policy">

@@ -1,5 +1,8 @@
 
-@import "./components/navigation";
 @import "./components/page-header";
+@import "./components/navigation";
+@import "./components/modal";
+@import "./base/is-hidden";
+@import "./base/container"
 
-h2{background-color: blue;background-color: red;}
+
