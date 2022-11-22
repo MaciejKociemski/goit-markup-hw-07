@@ -9,12 +9,12 @@
     font-size: 14px;
     line-height: 1.14px;
     text-transform: uppercase;
-    color: var(--white);
+    color: $white;
 
 }
 
 .footerSubmit__input {
-    background-color: var(--main-bacground-color);
+    background-color: $white;
     width: 308px;
     margin: 0;
     padding: 13px 12px;
@@ -27,7 +27,7 @@
 
 .footerSubmit__input:hover,
 .footerSubmit__input:focus {
-    border-color: var(--blue);
+    border-color: $blue;
     outline: none;
 }
 
@@ -42,9 +42,9 @@
     margin: 0;
     padding: 8px 20px;
     border-radius: 4px;
-    background-color: var(--blue);
+    background-color: $blue;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    color: var(--white);
+    color: $white;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;

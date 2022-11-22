@@ -1,3 +1,7 @@
+.whatWeDo {
+    padding: 94px 0;
+}
+
 .whatWeDo__item {
     position: relative;
 }
@@ -16,6 +20,15 @@
     padding: 27px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--white);
+    color: $white;
     background-color: rgba(47, 48, 58, 0.8);
+}
+
+.whatWeDo__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    gap: 30px;
 }

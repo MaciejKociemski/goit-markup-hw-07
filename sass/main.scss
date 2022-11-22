@@ -1,6 +1,7 @@
 
-@import "./base/body";
 @import "./utils/variables";
+@import "./base/body";
+@import "./theme/theme";
 @import "./components/page-header";
 @import "./components/navigation";
 @import "./components/modal";
@@ -13,5 +14,12 @@
 @import "./components/footerSubmit";
 @import "./components/socialFooter";
 @import "./layout/whatWeDo";
+@import "./layout/ourTeam";
+@import "./layout/customers";
+@import "./components/buttons";
+@import "./base/header";
+@import "./layout/title";
+@import "./pages/portfolio";
+@import "./theme/icons";
 
 

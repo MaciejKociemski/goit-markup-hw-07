@@ -1,5 +1,5 @@
 .technologies__header {
-    color: var(--black);
+    color: $black;
     font-size: 14px;
     font-weight: 700;
     line-height: 1.71;
@@ -9,7 +9,7 @@
 .technologies__text {
     width: 270px;
     height: 75px;
-    color: var(--grey);
+    color: $gray;
     font-size: 14px;
     letter-spacing: 0.03em;
     font-weight: 400;
@@ -33,7 +33,7 @@
 .technologies__icons {
     width: 270px;
     height: 120px;
-    background: var(--buttongrey);
+    background: $btngray;
     border-radius: 4px;
     margin-bottom: 30px;
 }

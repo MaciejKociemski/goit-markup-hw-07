@@ -11,7 +11,7 @@
     line-height: 1.14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--main-background-color);
+    color: $white;
     margin-bottom: 20px;
 }
 
@@ -47,7 +47,7 @@
 
 .socialFooter__icon:hover svg,
 .socialFooter__icon:focus svg {
-    --color2: var(--white);
+    --color2: $white;
     border-radius: 50%;
     background-size: cover;
     background-position: center;
@@ -55,5 +55,5 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
-    background: var(--main-link-color);
+    background: $blue;
 }

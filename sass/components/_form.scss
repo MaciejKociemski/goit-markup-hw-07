@@ -3,7 +3,6 @@
     margin-left: auto;
     margin-right: auto;
     padding: 40px;
-    ;
 
 }
 
@@ -32,7 +31,7 @@
     line-height: 1.17;
     letter-spacing: 0.01em;
     margin-bottom: 4px;
-    color: var(--grey);
+    color: $gray;
 
 }
 
@@ -50,7 +49,7 @@
 .form__input:hover,
 .form__input:focus {
 
-    border-color: var(--blue);
+    border-color: $blue;
     outline: none;
 }
 
@@ -67,7 +66,7 @@
 
 .form__input:hover~.input-icon,
 .form__input:focus~.input-icon {
-    fill: var(--blue)
+    fill: $blue;
 }
 
 textarea {
@@ -87,7 +86,7 @@ textarea {
 textarea:hover,
 textarea:focus {
     outline: none;
-    border-color: var(--blue);
+    border-color: $blue;
 
 }
 
@@ -127,8 +126,8 @@ textarea:focus {
 .policyCheck__checkbox:checked+.policyCheck__icon {
     background-position: center;
     background-repeat: no-repeat;
-    background-color: var(--blue);
-    border-color: var(--blue);
+    background-color: $blue;
+    border-color: $blue;
     fill: white;
     cursor: pointer;
 }
@@ -154,8 +153,8 @@ textarea:focus {
     font-weight: 700;
     font-size: 16px;
     cursor: pointer;
-    background-color: var(--blue);
-    color: var(--white);
+    background-color: $blue;
+    color: $white;
     box-shadow: 0px 4px 4px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -163,5 +162,5 @@ textarea:focus {
 
 .policyCheck__btn:hover,
 .policyCheck__btn:focus {
-    background-color: var(--form-color)
+    background-color: $formcolor;
 }

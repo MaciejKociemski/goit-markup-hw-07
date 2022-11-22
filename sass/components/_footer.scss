@@ -1,7 +1,7 @@
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: var(--black);
+    background-color: $black;
 }
 
 .footer__flex {
@@ -14,13 +14,13 @@
 .footer__contact {
     font-size: 14px;
     font-weight: 400;
-    color: var(--white);
+    color: $white;
     text-decoration: none;
 }
 
 .footer__whiteLogo {
     font-family: 'Raleway';
-    color: var(--white);
+    color: $white;
     font-size: 26px;
 }
 
@@ -28,7 +28,7 @@
 .footer__phone {
 
     text-decoration: none;
-    color: var(--white);
+    color: $white;
     opacity: 60%;
 
 
@@ -39,8 +39,8 @@
 .footer__mail:focus,
 .footer__phone:hover,
 .footer__phone:focus {
-    color: var(--blue);
-    stroke: var(--blue);
+    color: $blue;
+    stroke: $blue;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
