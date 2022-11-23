@@ -44,14 +44,15 @@
     border-radius: 4px;
     transition-duration: 250ms;
     transition: $cubic;
+   
+
+    &:hover,
+    &:focus{border-color: $blue;
+        outline: none;}
+
+        
 }
 
-.form__input:hover,
-.form__input:focus {
-
-    border-color: $blue;
-    outline: none;
-}
 
 .input-icon {
     position: absolute;
@@ -62,6 +63,7 @@
     width: 20px;
     height: 20px;
     transition: fill 250ms $cubic;
+   
 }
 
 .form__input:hover~.input-icon,
@@ -81,12 +83,9 @@ textarea {
     transition-duration: 250ms;
     transition: $cubic;
 
-}
-
-textarea:hover,
-textarea:focus {
-    outline: none;
-    border-color: $blue;
+    &:hover,
+    &:focus{outline: none;
+        border-color: $blue;}
 
 }
 
@@ -158,9 +157,9 @@ textarea:focus {
     box-shadow: 0px 4px 4px;
     transition-duration: 250ms;
     transition-timing-function: $cubic;
+
+    &:hover,
+    &:focus{background-color: $formcolor;}
 }
 
-.policyCheck__btn:hover,
-.policyCheck__btn:focus {
-    background-color: $formcolor;
-}
+

@@ -40,17 +40,12 @@
     opacity: 60%;
 
 
-}
-
-
-.footer__mail:hover,
-.footer__mail:focus,
-.footer__phone:hover,
-.footer__phone:focus {
-    color: $blue;
+&:hover,
+&:focus{color: $blue;
     stroke: $blue;
     transition-duration: 250ms;
-    transition-timing-function: $cubic;
+    transition-timing-function: $cubic;}
+
 }
 
 

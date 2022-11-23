@@ -4,7 +4,15 @@
     font-size: 14px;
     font-weight: 500;
     text-decoration-line: none;
+    
+
+    &:hover,
+    &:focus{--color4: #2196f3;
+        color: $blue;
+        transition-duration: 250ms;
+        transition-timing-function: $cubic;}
 }
+
 
 .contact__phone,
 .smartphone {
@@ -12,20 +20,11 @@
     font-size: 14px;
     font-weight: 500;
     text-decoration-line: none;
+
+    &:hover,
+    &:focus{--color4: #2196f3;
+        color: $blue;
+        transition-duration: 250ms;
+        transition-timing-function: $cubic;}
 }
 
-.contact__mail:hover,
-.contact__mail:focus {
-    --color4:#2196f3;
-    color: $blue;
-    transition-duration: 250ms;
-    transition-timing-function: $cubic;
-}
-
-.contact__phone:hover,
-.contact__phone:focus {
-    --color4: #2196f3;
-    color: $blue;
-    transition-duration: 250ms;
-    transition-timing-function: $cubic;
-}

@@ -20,16 +20,16 @@
     background-color: $white;
     fill: $iconscolor;
     gap: 30px;
+
+    &:hover,
+    &:focus{--color2: #2196f3;
+        border-color: $blue;
+        border-radius: 4px;
+        background-color: $white;
+        fill: $blue;
+        cursor: pointer;
+        transition-duration: 250ms;
+        transition-timing-function: $cubic;
+   }
 }
 
-.customers__box:hover,
-.customers__box:focus {
-    --color2: #2196f3;
-    border-color: $blue;
-    border-radius: 4px;
-    background-color: $white;
-    fill: $blue;
-    cursor: pointer;
-    transition-duration: 250ms;
-    transition-timing-function: $cubic;
-}

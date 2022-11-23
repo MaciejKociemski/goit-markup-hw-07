@@ -27,12 +27,14 @@
     font-weight: 500;
     line-height: 1.14em;
     letter-spacing: 0.02em;
-}
 
-.header__link:hover,
-.header__link:focus {
-    color: $blue;
-    text-decoration-color: $blue;
-    transition-duration: 250ms;
-    transition-timing-function: $cubic;
+&:hover,
+    &:focus {
+        color: $blue;
+        text-decoration-color: $blue;
+        transition-duration: 250ms;
+        transition-timing-function: $cubic;
+        
+    }
+
 }

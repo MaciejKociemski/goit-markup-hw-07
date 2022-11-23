@@ -38,27 +38,11 @@
     background-color: $white;
 
     fill: $blue;
-}
 
-.imageBox__icon:hover,
-.imageBox__icon:focus {
-    --color2: #fff;
-    background-color:$blue;
-    fill: $white;
-    transition-duration: 250ms;
-    transition-timing-function: $cubic;
-}
-
-.socialFooter__icon:hover svg,
-.socialFooter__icon:focus svg {
-    --color2: #fff;
-   
-    border-radius: 50%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition-duration: 250ms;
-    transition-timing-function: $cubic;
-    cursor: pointer;
-    background: $blue;
+    &:hover,
+    &:focus{--color2: #fff;
+        background-color: $blue;
+        fill: $white;
+        transition-duration: 250ms;
+        transition-timing-function: $cubic;}
 }

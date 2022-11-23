@@ -23,13 +23,12 @@
     border-radius: 4px;
     transition-duration: 250ms;
     transition: $cubic;
+
+    &:hover,
+    &:focus{border-color: $blue;
+        outline: none;}
 }
 
-.footerSubmit__input:hover,
-.footerSubmit__input:focus {
-    border-color: $blue;
-    outline: none;
-}
 
 .footerSubmit__btn {
 
@@ -54,13 +53,12 @@
     cursor: pointer;
     min-height: 43px;
     margin-left: 12px;
+    
+
+    &::after{display: inline-block;
+        width: 24px;
+        height: 20px;
+        margin-left: 10px;}
 
 }
 
-.footerSubmit__btn::after {
-
-    display: inline-block;
-    width: 24px;
-    height: 20px;
-    margin-left: 10px;
-}
