@@ -14,3 +14,51 @@
     height: 24px;
     margin-left: 30px;
 }
+
+.imageBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 206px;
+    gap: 10px;
+    margin: 0px 32px 18px;
+}
+
+.imageBox__icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    width: 44px;
+    height: 44px;
+    gap: 10px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $white;
+
+    fill: $blue;
+}
+
+.imageBox__icon:hover,
+.imageBox__icon:focus {
+    --color2: var(--white);
+    background-color:$blue;
+    fill: $white;
+    transition-duration: 250ms;
+    transition-timing-function: $cubic;
+}
+
+.socialFooter__icon:hover svg,
+.socialFooter__icon:focus svg {
+    --color2: var(--white);
+   
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 250ms;
+    transition-timing-function: $cubic;
+    cursor: pointer;
+    background: $blue;
+}

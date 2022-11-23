@@ -16,3 +16,25 @@
     gap: 30px;
     flex-basis: calc((100% - 60px) / 3);
 }
+
+.product__cards:hover,
+.product__cards:focus {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+    transition-duration: 250ms;
+    transition-timing-function: $cubic;
+}
+
+.product__hover {
+    display: block;
+    text-decoration: none;
+}
+
+.product__container {
+    position: relative;
+    width: 100%;
+}
+
+.product__container:hover .overlay {
+    height: 100%;
+}

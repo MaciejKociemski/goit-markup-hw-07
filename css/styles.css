@@ -2,25 +2,6 @@
   background-color: var(--white);
 }
 
-/* .products__list {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding-left: 0px;
-  margin: 0px;
-  padding-bottom: 94px;
-  gap: 30px;
-  flex-basis: calc((100%-60px) / 3);
-} */
-
-.project-description:hover,
-.project-description:focus {
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
-  cursor: pointer;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .portfolio-images-area {
   font-weight: 700;
   font-size: 18px;
@@ -47,20 +28,8 @@
 .footer-portfolio {
   text-decoration: underline;
 }
-
-.customers__box:hover,
-.customers__box:focus {
-  --color2: #2196f3;
-  border-color: var(--main-link-color);
-  border-radius: 4px;
-  background-color: var(--main-bacground-color);
-  fill: var(--main-link-color);
-  cursor: pointer;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.socialmedia-box {
+/* 
+.imageBox {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,7 +38,7 @@
   margin: 0px 32px 18px;
 }
 
-.socialmedia-icon {
+.imageBox__icon {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -85,16 +54,15 @@
   fill: var(--blue);
 }
 
-.socialmedia-icon:hover,
-.socialmedia-icon:focus {
+.imageBox__icon:hover,
+.imageBox__icon:focus {
   --color2: var(--white);
   background-color: var(--main-link-color);
   fill: var(--main-link-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/* portfolio*/
+ */
 
 .figure-portfolio {
   background-color: var(--white);
@@ -111,37 +79,10 @@
   margin-top: 1.5em;
 }
 
-.project-hover {
-  display: block;
-  text-decoration: none;
-}
-
-/*static overlay index site*/
-
-.project-container {
-  position: relative;
-  width: 100%;
-}
-
 .screen-portfolio {
   width: 370px;
   height: auto;
 }
 
 
-.project-container:hover .overlay {
-  height: 100%;
-}
 
-.text {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.56;
-  letter-spacing: 0.03em;
-  color: white;
-  vertical-align: top;
-  position: absolute;
-  padding: 25px 45px 20px 24px;
-  transform: translateY(0%);
-}

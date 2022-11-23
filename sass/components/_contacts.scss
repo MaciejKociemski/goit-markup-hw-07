@@ -19,7 +19,7 @@
     --color4:#2196f3;
     color: $blue;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: $cubic;
 }
 
 .contact__phone:hover,
@@ -27,5 +27,5 @@
     --color4: #2196f3;
     color: $blue;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: $cubic;
 }

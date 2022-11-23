@@ -43,7 +43,7 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     transition-duration: 250ms;
-    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: $cubic;
 }
 
 .form__input:hover,
@@ -61,7 +61,7 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms $cubic;
 }
 
 .form__input:hover~.input-icon,
@@ -79,7 +79,7 @@ textarea {
     letter-spacing: 0.01em;
     height: 120px;
     transition-duration: 250ms;
-    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: $cubic;
 
 }
 
@@ -157,7 +157,7 @@ textarea:focus {
     color: $white;
     box-shadow: 0px 4px 4px;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: $cubic;
 }
 
 .policyCheck__btn:hover,
