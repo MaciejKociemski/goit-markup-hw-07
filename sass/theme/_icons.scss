@@ -42,7 +42,7 @@
 
 .imageBox__icon:hover,
 .imageBox__icon:focus {
-    --color2: var(--white);
+    --color2: #fff;
     background-color:$blue;
     fill: $white;
     transition-duration: 250ms;
@@ -51,7 +51,7 @@
 
 .socialFooter__icon:hover svg,
 .socialFooter__icon:focus svg {
-    --color2: var(--white);
+    --color2: #fff;
    
     border-radius: 50%;
     background-size: cover;

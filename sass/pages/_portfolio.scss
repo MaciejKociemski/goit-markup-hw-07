@@ -1,3 +1,8 @@
+
+.screen-portfolio {
+    width: 370px;
+    height: auto;
+}
 .portfolio__nav-list--buttons {
     display: flex;
     cursor: pointer;
@@ -37,4 +42,27 @@
 
 .product__container:hover .overlay {
     height: 100%;
+}
+
+.area__description--header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.89;
+    letter-spacing: 0.06em;
+    padding-left: 24px;
+    padding-top: 20px;
+
+    color: $black;
+}
+
+.area__description--sign {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.88;
+    text-align: left;
+    letter-spacing: 0.03em;
+    padding-left: 24px;
+    padding-bottom: 20px;
+    color: $gray;
 }
